@@ -1,0 +1,137 @@
+
+/*.container{
+    max-width: 960px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+    
+  }*/
+    
+  
+  .main {
+    margin-top: 30px;
+  }
+
+  body {
+    /*display: flex;
+    flex-direction: column;*/
+    text-align: center;
+    overflow-x: hidden; 
+    /*align-items: center;
+    justify-content: center;*/
+  }
+
+  .indexbody {
+    /*display: flex;
+    flex-direction: column;*/
+    text-align: center; 
+    /*align-items: center;
+    justify-content: center;
+    overflow: hidden;*/
+    
+  }
+ 
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+  }
+  
+ 
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+ 
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.wrapper {
+ 
+  height: 100vh;
+  width: 100vw;
+  
+  
+  
+  overflow-y: auto;
+  
+  perspective: 2px;
+}
+
+.section {
+  
+  position: relative;
+  
+  height: 100vh;
+
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  
+}
+
+.parallax::after {
+  
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  
+  transform: translateZ(-1px) scale(1.5);
+  
+  background-size: 100%;
+  
+  z-index: -1;
+}
+
+
+.static {
+  background:rgb(226, 242, 242);
+  height: 31vh;
+  color: black;
+}
+
+
+.bg1::after {
+  background-image: url('https://nevertiredoftravelling.files.wordpress.com/2013/10/chaukhandi-stupa.jpg');
+}
+
+.bg2::after {
+  background-image: url('https://smarthistory.org/wp-content/uploads/2020/03/Temple_17_-_Buddhist_Monument_-_Sanchi_Hill_2013-02-21_4494-scaled.jpg');
+}
+.bg3::after {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e5/Ajanta_Caves_No_19_Stupa_with_Standing_Buddha_1913.jpg');
+}
+
+.bg4::after {
+    background-image: url('https://smarthistory.org/wp-content/uploads/2020/03/Deogarh.png');
+}
+.bg5::after {
+    background-image: url('https://www.incredibleindia.org/content/dam/incredibleindia/images/places/sanchi/sanchi-the-gupta-temple-0.jpg');
+}
+.bg6::after {
+    background-image: url('https://i.pinimg.com/originals/dd/e9/96/dde996b58ca12d048d864a45bc262fe5.jpg');
+}
+
+/*https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260*/
